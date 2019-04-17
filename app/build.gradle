@@ -34,9 +34,16 @@ dependencies {
     implementation 'com.google.android.gms:play-services-maps:16.1.0'
     implementation 'com.google.android.gms:play-services-location:16.0.0'
     implementation 'com.facebook.android:facebook-android-sdk:4.41.0'
+    //AWS Base SDK
+    implementation 'com.amazonaws:aws-android-sdk-core:2.13'
+    //AWS AppSync SDK
+    implementation 'com.amazonaws:aws-android-sdk-appsync:2.7.9'
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0'
+    implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     apply plugin: 'kotlin-android-extensions'
+    apply plugin: 'com.amazonaws.appsync'
 
 }

@@ -1,0 +1,16 @@
+projects:
+  hackgsu19:
+    schemaPath: app\src\main\graphql\schema.json
+    includes:
+      - ''
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: ''
+        generatedFileName: ''
+        docsFilePath: app\src\main\graphql\com\amazonaws\amplify\generated\graphql
+        graphQLApiId: rortcsyblffz7ma4n5ztx4nw44
+      endpoints:
+        prod: >-
+          https://puxo7sejwvdgtjcki5flulao64.appsync-api.us-east-1.amazonaws.com/graphql

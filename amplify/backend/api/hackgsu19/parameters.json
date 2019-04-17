@@ -1,0 +1,4 @@
+{
+    "AppSyncApiName": "hackgsu19",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
+}
